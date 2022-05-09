@@ -27,7 +27,7 @@ fvalue
 pvalue <- pf(fvalue, 1, 28, lower.tail = FALSE)
 pvalue
 
-confint(regXY, level = 0.05)
+confint(regXY, level = 0.95)
 
-predict(regXY, data=c(X,Y*500), X= 500)
+predict(regXY, X = 500)
 
